@@ -10,7 +10,7 @@ import re
 app = Flask(__name__)
 @app.route('/')
 def home():
-    return jsonify({'error': 'Data not found'})
+    return jsonify({'credit': 'chintamani pala','portfolio':'chintamanipala.me'})
 
 
 @app.route('/get_video_data', methods=['GET'])
