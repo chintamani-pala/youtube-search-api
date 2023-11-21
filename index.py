@@ -13,7 +13,7 @@ def home():
     return jsonify({'credit': 'chintamani pala','portfolio':'chintamanipala.me'})
 
 
-@app.route('/get_video_data', methods=['GET'])
+@app.route('/get', methods=['GET'])
 def get_video_data():
     query = request.args.get('query')
     if not query:
